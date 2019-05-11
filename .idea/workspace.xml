@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e93c8814-b4b8-424d-af01-d24abbb6d240" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CreateIndexWithMapping.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/批注 2019-05-09 225702.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/批注 2019-05-10 093506.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/批注 2019-05-10 143143.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/批注 2019-05-10 154422.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/批注 2019-05-10 201416.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreateIndexWithMapping.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreateIndexWithMappingOffcial.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mapping.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Mapping.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/from_mysql_to_elasticsearch/import_elasticsearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/from_mysql_to_elasticsearch/import_elasticsearch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/from_python_to_mysql/douban.py" beforeDir="false" afterPath="$PROJECT_DIR$/from_python_to_mysql/douban.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/backup.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/工作簿1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/张益铭简历.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/数据库表结构.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/数据库表结构.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/工作簿1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/工作簿1.xlsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,13 +23,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Movie-Search-System-Practice" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/from_python_to_mysql/connect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="93" />
+            <state relative-caret-position="22">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#20#34#0" expanded="true" />
               </folding>
@@ -29,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/from_python_to_mysql/douban.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-171">
-              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            <state relative-caret-position="323">
+              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
               <folding>
                 <element signature="e#16#31#0" expanded="true" />
               </folding>
@@ -42,10 +53,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python37/Lib/site-packages/pymysql/err.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="108" selection-start-line="108" selection-end-line="108" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/from_mysql_to_elasticsearch/export_mysql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-238">
-              <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+            <state relative-caret-position="86">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -56,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/from_mysql_to_elasticsearch/import_elasticsearch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            <state relative-caret-position="170">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
               <folding>
                 <element signature="e#16#45#0" expanded="true" />
               </folding>
@@ -90,12 +110,12 @@
         <option value="$PROJECT_DIR$/from_mysql_to_elasticsearch/aa.sql.py" />
         <option value="$PROJECT_DIR$/from_mysql_to_elasticsearch/sql_manage.py" />
         <option value="$PROJECT_DIR$/from_mysql_to_elasticsearch/export_mysql.py" />
-        <option value="$PROJECT_DIR$/from_python_to_mysql/douban.py" />
         <option value="$PROJECT_DIR$/from_mysql_to_elasticsearch/import_elasticsearch.py" />
+        <option value="$PROJECT_DIR$/from_python_to_mysql/douban.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="566" />
     <option name="width" value="807" />
     <option name="height" value="735" />
@@ -176,6 +196,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="douban (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DOUBAN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/from_python_to_mysql" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/from_python_to_mysql/douban.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="douban" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DOUBAN" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,34 +280,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ss" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DOUBAN" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\zhang\Documents\GitHub\Movie-Search-System-Practice\from_python_to_mysql\ss.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Python.connect" />
+      <item itemvalue="Python.douban" />
+      <item itemvalue="Python.export_mysql" />
+      <item itemvalue="Python.import_elasticsearch" />
+      <item itemvalue="Python.douban (1)" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.export_mysql" />
+        <item itemvalue="Python.douban (1)" />
         <item itemvalue="Python.import_elasticsearch" />
         <item itemvalue="Python.douban" />
         <item itemvalue="Python.connect" />
-        <item itemvalue="Python.ss" />
       </list>
     </recent_temporary>
   </component>
@@ -285,14 +312,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="DB Browser" order="0" weight="0.3296131" />
-      <window_info id="Job Explorer" order="1" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="Project Explorer" order="3" />
-      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.19568452" />
-      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info id="DB Browser" order="0" show_stripe_button="false" weight="0.3296131" />
+      <window_info id="Job Explorer" order="1" show_stripe_button="false" weight="0.3296131" />
+      <window_info id="Favorites" order="2" show_stripe_button="false" sideWeight="0.50163937" side_tool="true" weight="0.19568452" />
+      <window_info id="Project Explorer" order="3" weight="0.3296131" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.49779737" visible="true" weight="0.19568452" />
+      <window_info id="Structure" order="5" sideWeight="0.50220263" side_tool="true" visible="true" weight="0.19568452" />
       <window_info anchor="bottom" id="DB Execution Console" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" />
@@ -301,7 +327,7 @@
       <window_info anchor="bottom" id="Console" order="5" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info active="true" anchor="bottom" id="Find" order="7" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.28032786" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.62786883" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.5286416" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -312,30 +338,6 @@
     </layout>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/from_python_to_mysql/douban.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/from_python_to_mysql/douban.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/from_python_to_mysql/douban.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/from_python_to_mysql/connect.py</url>
-          <line>29</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="soup.find('span', attrs={'property': 'v:itemreviewed'})" />
@@ -358,13 +360,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/douban_scrapy.py" />
-    <entry file="file://C:/Program Files/Python37/Lib/site-packages/requests/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python37/Lib/site-packages/requests/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
@@ -396,13 +391,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/movies.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/Program Files/Python37/Lib/site-packages/pymysql/cursors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="150" column="8" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="8" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/from_python_to_mysql/moviedetail.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -441,42 +429,80 @@
     <entry file="file://$PROJECT_DIR$/from_mysql_to_elasticsearch/aa.sql" />
     <entry file="file://$PROJECT_DIR$/from_mysql_to_elasticsearch/bb.sql" />
     <entry file="file://$PROJECT_DIR$/from_mysql_to_elasticsearch/sql_manage.py" />
-    <entry file="file://$PROJECT_DIR$/from_python_to_mysql/connect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="93" />
-          <folding>
-            <element signature="e#20#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/from_mysql_to_elasticsearch/import_elasticsearch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        <state relative-caret-position="170">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
           <folding>
             <element signature="e#16#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/from_mysql_to_elasticsearch/export_mysql.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/time.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Program Files/Python37/Lib/site-packages/requests/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/from_python_to_mysql/douban.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="323">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
           <folding>
             <element signature="e#16#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python37/Lib/site-packages/pymysql/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="516" selection-start-line="516" selection-end-line="516" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python37/Lib/site-packages/pymysql/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/from_python_to_mysql/connect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#20#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python37/Lib/site-packages/pymysql/protocol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python37/Lib/site-packages/pymysql/err.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/from_mysql_to_elasticsearch/export_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>

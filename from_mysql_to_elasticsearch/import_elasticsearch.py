@@ -8,7 +8,7 @@ es = Elasticsearch()
 def toES(mid, mtitle, mdirector, mdate, mtime,mintroduction):
     doc = [
         {"index": {}},
-        {'mid': mid, 'mtitle': mtime, 'mdirector': mdirector, 'mdate': mdate,'mtime':mtime, 'mdate': mdate,'mintroduction':mintroduction}
+        {'mid': mid, 'mtitle': mtitle, 'mdirector': mdirector, 'mdate': mdate,'mtime':mtime, 'mdate': mdate,'mintroduction':mintroduction}
     ]
     # doc = [
     #     {'index': {'_index': 'indexName', '_type': 'typeName', '_id': 'idValue'}}
