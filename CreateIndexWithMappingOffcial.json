@@ -1,79 +1,70 @@
-curl -X PUT "localhost:9200/movietest"
-
-
-
-curl -X PUT "localhost:9200/twitter" -H 'Content-Type: application/json' -d'
-{}
-'
-
-
 curl -X PUT "localhost:9200/movietest/_mapping" -H 'Content-Type: application/json' -d'
 {
   "properties": {
-            "movieID": {
-                "type": "integer",
-                "enabled": false
-            },
-            "movieName": {
-                "type": "keyword",
-                "enabled": false
-            },
-            "movieDirector": {
-                "type": "keyword",
-                "enabled": true,
-                "index": true,
-                "index_options": "docs"
-            },
-            "movieDate": {
-                "type": "text",
-                "enabled": false
-            },
-            "movieTime": {
-                "type": "text",
-                "enabled": false
-            },
-            "movieIntroduction": {
-                "type": "text",
-                "enabled": false
-            },
-            "movieScore": {
-                "type": "float",
-                "enabled": true,
-                "index": true,
-                "index_options": "docs"
-            },
-            "movieJudges": {
-                "type": "text",
-                "enabled": false
-            },
-            "movieScriptwriter": {
-                "type": "keyword",
-                "enabled": true
-            },
-            "movieActor": {
-                "type": "keyword",
-                "enabled": true
-            },
-            "movieType": {
-                "type": "keyword",
-                "enabled": true
-            },
-            "movieLocatione": {
-                "type": "keyword",
-                "enabled": true
-            },
-            "movieLanguage": {
-                "type": "keyword",
-                "enabled": true
-            },
-            "movieNickname": {
-                "type": "text",
-                "enabled": false
-            },
-            "movieTag": {
-                "type": "text",
-                "enabled": true
-            }
+        "movieID": {
+            "type": "integer",
+            "enabled": false
+        },
+        "movieName": {
+            "type": "keyword",
+            "enabled": false
+        },
+        "movieDirector": {
+            "type": "keyword",
+            "enabled": true,
+            "index": true,
+            "index_options": "docs"
+        },
+        "movieDate": {
+            "type": "text",
+            "enabled": false
+        },
+        "movieTime": {
+            "type": "text",
+            "enabled": false
+        },
+        "movieIntroduction": {
+            "type": "text",
+            "enabled": false
+        },
+        "movieScore": {
+            "type": "float",
+            "enabled": true,
+            "index": true,
+            "index_options": "docs"
+        },
+        "movieJudges": {
+            "type": "text",
+            "enabled": false
+        },
+        "movieScriptwriter": {
+            "type": "keyword",
+            "enabled": true
+        },
+        "movieActor": {
+            "type": "keyword",
+            "enabled": true
+        },
+        "movieType": {
+            "type": "keyword",
+            "enabled": true
+        },
+        "movieLocatione": {
+            "type": "keyword",
+            "enabled": true
+        },
+        "movieLanguage": {
+            "type": "keyword",
+            "enabled": true
+        },
+        "movieNickname": {
+        	"type": "text",
+            "enabled": false
+        },
+        "movieTag": {
+            "type": "text",
+            "enabled": true
         }
+    }
 }
 '

@@ -1,70 +1,65 @@
-curl -XPOST 'http://localhost:9200/index/type/_mapping' -d '{
-    "movieTest": {
-        "properties": {
-            "movieID": {
-                "type": "integer",
-                "enabled": false
-            },
-            "movieName": {
-                "type": "keyword",
-                "enabled": false
-            },
-            "movieDirector": {
-                "type": "keyword",
-                "enabled": true,
-                "index": true,
-                "index_options": "docs"
-            },
-            "movieDate": {
-                "type": "text",
-                "enabled": false
-            },
-            "movieTime": {
-                "type": "text",
-                "enabled": false
-            },
-            "movieIntroduction": {
-                "type": "text",
-                "enabled": false
-            },
-            "movieScore": {
-                "type": "float",
-                "enabled": true,
-                "index": true,
-                "index_options": "docs"
-            },
-            "movieJudges": {
-                "type": "text",
-                "enabled": false
-            },
-            "movieScriptwriter": {
-                "type": "keyword",
-                "enabled": true
-            },
-            "movieActor": {
-                "type": "keyword",
-                "enabled": true
-            },
-            "movieType": {
-                "type": "keyword",
-                "enabled": true
-            },
-            "movieLocatione": {
-                "type": "keyword",
-                "enabled": true
-            },
-            "movieLanguage": {
-                "type": "keyword",
-                "enabled": true
-            },
-            "movieNickname": {
-                "type": "text",
-                "enabled": false
-            },
-            "movieTag": {
-                "type": "text",
-                "enabled": true
-            }
+curl -X PUT "localhost:9200/movietest/_mapping" -H 'Content-Type: application/json' -d'
+{
+  "properties": {
+        "movieID": {
+            "type": "integer",
+            "index": false
+        },
+        "movieName": {
+            "type": "keyword",
+            "index": false
+        },
+        "movieDirector": {
+            "type": "keyword",
+            "index": true,
+            "index_options": "docs"
+        },
+        "movieDate": {
+            "type": "text",
+            "index": false
+        },
+        "movieTime": {
+            "type": "text",
+            "index": false
+        },
+        "movieIntroduction": {
+            "type": "text",
+            "index": false
+        },
+        "movieScore": {
+            "type": "float"
+        },
+        "movieJudges": {
+            "type": "text",
+            "index": false
+        },
+        "movieScriptwriter": {
+            "type": "keyword",
+            "index": true
+        },
+        "movieActor": {
+            "type": "keyword",
+            "index": true
+        },
+        "movieType": {
+            "type": "integer"
+        },
+        "movieLocatione": {
+            "type": "keyword",
+            "index": false
+        },
+        "movieLanguage": {
+            "type": "keyword",
+            "index": true
+        },
+        "movieNickname": {
+            "type": "text",
+            "index": false
+        },
+        "movieTag": {
+            "type": "text",
+            "index": true
         }
     }
-}'
+}
+'
