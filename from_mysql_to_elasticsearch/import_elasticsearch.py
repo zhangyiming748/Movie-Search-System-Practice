@@ -19,4 +19,4 @@ def toES(mid, mtitle, mdirector, mdate, mtime,mintroduction):
     #     {'update': {'_index': 'indexName', '_type': 'typeName', '_id': 'idValue'}}
     #     {'doc': {'age': '100'}}
     # ]
-    es.bulk(index='ten', body = doc)
+    es.bulk(index='movietest', body = doc)
